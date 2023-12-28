@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="styleGrille.xslt"?>
+<Puissance4>
+    <grille>
+        <colonne>
+            <cellule><jeton>vide</jeton></cellule>
+            <cellule><jeton>vide</jeton></cellule>
+            <cellule><jeton>vide</jeton></cellule>
+            <cellule><jeton>vide</jeton></cellule>
+            <cellule><jeton>vide</jeton></cellule>
+            <cellule><jeton>vide</jeton></cellule>
+        </colonne>
+        
+        <colonne>
+            <cellule><jeton>vide</jeton></cellule>
+            <cellule><jeton>vide</jeton></cellule>
+            <cellule><jeton>Jaune</jeton></cellule>
+            <cellule><jeton>Jaune</jeton></cellule>
+            <cellule><jeton>Jaune</jeton></cellule>
+            <cellule><jeton>Jaune</jeton></cellule>
+        </colonne>
+        <colonne>
+            <cellule><jeton>vide</jeton></cellule>
+            <cellule><jeton>vide</jeton></cellule>
+            <cellule><jeton>vide</jeton></cellule>
+            <cellule><jeton>vide</jeton></cellule>
+            <cellule><jeton>vide</jeton></cellule>
+            <cellule><jeton>vide</jeton></cellule>
+        </colonne>
+        <colonne>
+            <cellule><jeton>vide</jeton></cellule>
+            <cellule><jeton>vide</jeton></cellule>
+            <cellule><jeton>vide</jeton></cellule>
+            <cellule><jeton>vide</jeton></cellule>
+            <cellule><jeton>vide</jeton></cellule>
+            <cellule><jeton>vide</jeton></cellule>
+        </colonne>
+        <colonne>
+            <cellule><jeton>vide</jeton></cellule>
+            <cellule><jeton>vide</jeton></cellule>
+            <cellule><jeton>vide</jeton></cellule>
+            <cellule><jeton>vide</jeton></cellule>
+            <cellule><jeton>vide</jeton></cellule>
+            <cellule><jeton>vide</jeton></cellule>
+        </colonne>
+        <colonne>
+            <cellule><jeton>vide</jeton></cellule>
+            <cellule><jeton>vide</jeton></cellule>
+            <cellule><jeton>vide</jeton></cellule>
+            <cellule><jeton>vide</jeton></cellule>
+            <cellule><jeton>vide</jeton></cellule>
+            <cellule><jeton>vide</jeton></cellule>
+        </colonne>
+        <colonne>
+            <cellule><jeton>vide</jeton></cellule>
+            <cellule><jeton>vide</jeton></cellule>
+            <cellule><jeton>vide</jeton></cellule>
+            <cellule><jeton>vide</jeton></cellule>
+            <cellule><jeton>vide</jeton></cellule>
+            <cellule><jeton>vide</jeton></cellule>
+        </colonne>
+        
+    </grille>
+</Puissance4>

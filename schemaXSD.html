@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- Définition d'un type simple pour représenter un jeton, qui peut être soit vide, rouge ou jaune -->
+    <xs:simpleType name="TokenType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="vide"/>
+            <xs:enumeration value="rouge"/>
+            <xs:enumeration value="jaune"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Définition d'un type complexe pour une cellule de la grille -->
+    <xs:complexType name="CellType">
+        <xs:sequence>
+            <xs:element name="jeton" type="TokenType"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Définition d'une colonne du jeu, constituée de 6 cellules -->
+    <xs:complexType name="ColumnType">
+        <xs:sequence>
+            <xs:element name="cellule" type="CellType" maxOccurs="6" minOccurs="6"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Définition de la grille de jeu, constituée de 7 colonnes -->
+    <xs:complexType name="GridType">
+        <xs:sequence>
+            <xs:element name="colonne" type="ColumnType" maxOccurs="7" minOccurs="7"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Définition de l'élément racine du document XML -->
+    <xs:element name="Puissance4">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="grille" type="GridType"/>
+                <!-- Vous pouvez ajouter d'autres éléments ici si nécessaire, par exemple, pour indiquer le joueur actuel ou le statut de la partie -->
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
