@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" >
 
     <!-- Définition d'un type simple pour représenter un jeton, qui peut être soit vide, rouge ou jaune -->
     <xs:simpleType name="TokenType">
         <xs:restriction base="xs:string">
             <xs:enumeration value="vide"/>
-            <xs:enumeration value="rouge"/>
-            <xs:enumeration value="jaune"/>
+            <xs:enumeration value="Rouge"/>
+            <xs:enumeration value="Jaune"/>
         </xs:restriction>
     </xs:simpleType>
 
